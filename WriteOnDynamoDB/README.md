@@ -22,7 +22,7 @@
 
 #### Step 3 : Build lambda jar
 
-1. Checkout https://github.com/vijaykumarsrivastava/aws_lambda/tree/main/sample2/WriteOnDynamoDB code.
+1. Checkout https://github.com/vijaykumarsrivastava/aws_lambda/tree/main/WriteOnDynamoDB code.
 2. mvn clean package shade:shade
 3. Jar file will get created WriteOnDynamoDB-0.0.1-SNAPSHOT.jar
 

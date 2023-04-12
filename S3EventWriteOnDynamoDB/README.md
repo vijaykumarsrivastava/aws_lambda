@@ -28,7 +28,7 @@
 
 #### Step 4 : Build lambda jar
 
-1. Checkout https://github.com/vijaykumarsrivastava/aws_lambda/tree/main/sample2/S3EventWriteOnDynamoDB code.
+1. Checkout https://github.com/vijaykumarsrivastava/aws_lambda/tree/main/S3EventWriteOnDynamoDB code.
 2. mvn clean package shade:shade
 3. S3EventWriteOnDynamoDB-0.0.1-SNAPSHOT.jar file will get generated.
 
