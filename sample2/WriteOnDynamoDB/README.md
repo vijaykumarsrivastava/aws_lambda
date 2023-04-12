@@ -24,10 +24,7 @@
 
 1. Checkout https://github.com/vijaykumarsrivastava/aws_lambda/tree/main/sample2/WriteOnDynamoDB code.
 2. mvn clean package shade:shade
-3. Three jar file will be created.
-3.1. original-WriteOnDynamoDB-0.0.1-SNAPSHOT.jar
-3.2. WriteOnDynamoDB-0.0.1-SNAPSHOT-shaded.jar
-3.3. WriteOnDynamoDB-0.0.1-SNAPSHOT.jar
+3. Jar file will get created WriteOnDynamoDB-0.0.1-SNAPSHOT.jar
 
 #### Step 4 : Create lambda function
 
@@ -37,7 +34,7 @@
 4. Change default execution role : Use an existing role (select that role which we created in step 1)
 5. Create function
 6. Runtime settings -> Edit -> Handler : com.vijay.aws.lambda.sample2.SaveUserHandler::handleRequest
-7. Code -> Upload from -> jar -> WriteOnDynamoDB-0.0.1-SNAPSHOT-shaded.jar -> Upload -> Save
+7. Code -> Upload from -> jar -> WriteOnDynamoDB-0.0.1-SNAPSHOT.jar -> Upload -> Save
 
 #### Step 5 : Test lambda function
 
